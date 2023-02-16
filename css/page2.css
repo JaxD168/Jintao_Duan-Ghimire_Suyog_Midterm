@@ -1,0 +1,421 @@
+#container{
+    margin: 0, auto;
+    width: 1920px;
+}
+
+.grid {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: grid;
+    grid-template-columns: repeat(12, 140px);
+    grid-template-rows: repeat(12,70px);
+    grid-gap: 16px;
+}
+
+/* style header */
+
+header{
+    background-image: url(../images/Hero-img-bg.png);
+    background-size:cover;
+    width: 1920px;
+    height: 1080px;
+}
+
+header h2 {
+    font-size: 80px;
+    grid-column: 6/7;
+    grid-row: 6/7;
+    margin-top: 5px;
+}
+
+header p {
+    font-size: 25px;
+    grid-column: 4/9;
+    grid-row: 7/8;
+    margin-top: 50px;
+}
+
+/* logo */
+
+#header-logo {
+    grid-column: 1/2;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* header icons */
+
+#main-header nav {display: contents;}
+#header-icons {grid-column: 12/-1; margin-top: 40px;}
+
+
+
+/* flavour and Bundle */
+#flavours{
+    background-color: #00002B;
+}
+
+#flavours h2{font-size: 50px; color: white;}
+#flavours p {color: white; font-size: 24px;}
+
+#f-b-button{
+    height: 200px;
+}
+
+#f-b-button button {
+    background-color: black;
+    color: white;
+    height: 71px;
+    width: 232px;
+    font-size: 43px;
+}
+
+#flavour{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    margin-left: 35px;
+}
+
+#bundle {
+    grid-column: 7/8;
+    grid-row: 2/3;
+    margin-left: 30px;
+}
+
+#Flavour-des {
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* style fliter */
+.sort-select {
+    width: 140px;
+    height: 70px;
+    font-size: 33px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid black;
+    background: transparent;
+    grid-column: 1/2;
+    margin-bottom: 60px;
+}
+
+#sort {
+    grid-row: 2/4;
+}
+
+#fliter {
+    grid-column: 12/13;
+}
+
+
+
+
+
+#flavours h2{font-size: 50px;}
+#flavours p {color: white; font-size: 24px; line-height: 30px;}
+
+
+/* drink-1 img */
+#drink1-img {grid-column: 2/3; margin-left: 35px; grid-row: 3/8;}
+#green-line {border-bottom: 2px solid #40F500; width: 296px;}
+#drink1-des {grid-column: 6/12; grid-row: 4/10;}
+#price1 {
+    grid-column: 11/12;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;}
+
+#drink-1 button {
+    background-color: #BBFB66;
+    width: 141px;
+    height: 56px;
+    font-size: 21px;
+}
+
+#drink-1-buy-button {
+    grid-row: -5/-4;
+    grid-column: 6/7;
+}
+
+#drink-1-Add-button {
+    grid-row: -5/-4;
+    grid-column: 7/8;
+}
+
+
+/* drink-2 img */
+#drink2-img {grid-column: 9/10; grid-row: 3/10; margin-top: 10px;}
+#red-line {border-bottom: 2px solid #C8352A; width: 296px;}
+#drink2-des {grid-column: 2/6; grid-row: 4/10; margin-top: 10px;}
+#price2 {
+    grid-column: 5/6;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;
+}
+
+#drink-2 button {
+    background-color: #C8352A;
+    width: 141px;
+    height: 56px;
+    font-size: 21px;
+}
+
+#drink-2-buy-button {
+    grid-row: -5/-4;
+    grid-column: 2/3;
+}
+
+#drink-2-Add-button {
+    grid-row: -5/-4;
+    grid-column: 3/4;
+}
+
+/* drink-3 */
+#drink3-img {grid-column: 1/2; margin-left: 35px; grid-row: 3/8;}
+#blue-line {border-bottom: 2px solid #4F86F7; width: 296px;}
+#drink3-des {grid-column: 6/12; grid-row: 4/10;}
+#price3 {
+    grid-column: 11/12;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;
+}
+
+#drink-3 button {
+    background-color: #4F86F7;
+    width: 141px;
+    height: 56px;
+    font-size: 21px;
+    color: white;
+}
+
+#drink-3-buy-button {
+    grid-row: -5/-4;
+    grid-column: 6/7;
+}
+
+#drink-3-Add-button {
+    grid-row: -5/-4;
+    grid-column: 7/8;
+}
+
+/* drink-4 */
+
+#drink4-img {grid-column: 9/10; grid-row: 3/10; margin-top: 10px;}
+#dark-line {border-bottom: 2px solid black; width: 296px;}
+#drink4-des {grid-column: 2/6; grid-row: 4/10; margin-top: 10px;}
+#price4 {
+    grid-column: 5/6;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;}
+
+#drink-4 button {
+    background-color: black;
+    width: 141px;
+    height: 56px;
+    font-size: 21px;
+    color: white;
+}
+
+#drink-4-buy-button {
+    grid-row: -5/-4;
+    grid-column: 2/3;
+}
+
+#drink-4-Add-button {
+    grid-row: -5/-4;
+    grid-column: 3/4;
+}
+
+/* drink-5 */
+#drink5-img {grid-column: 2/3; margin-left: 35px; grid-row: 3/8;}
+#white-line {border-bottom: 2px solid white; width: 296px;}
+#drink5-des {grid-column: 6/12; grid-row: 4/10;}
+#price5 {
+    grid-column: 11/12;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;}
+
+#drink-5 button {
+    background-color: white;
+    width: 141px;
+    height: 56px;
+    font-size: 21px;
+    color: black;
+}
+
+#drink-5-buy-button {
+    grid-row: -5/-4;
+    grid-column: 6/7;
+}
+
+#drink-5-Add-button {
+    grid-row: -5/-4;
+    grid-column: 7/8;
+}
+
+
+/* style Intro Box */
+#Intro{
+    height: 649px;
+    background-color: cadetblue;
+    color: white;
+    margin-top: 80px;
+}
+#Intro p {
+    font-size: 111px;
+    grid-column: 4/10;
+    text-align: center;
+}
+
+#Intro button {
+    width: 296px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    grid-column: 6/7;
+    grid-row: -6/7;
+}
+
+
+/* Bundles section */
+
+#Bundles-section {background-color: #A9A9A9; color: black; padding-top: 50px;}
+#Bundle-tittle {font-size: 55px; text-align: center;}
+#New-icon {
+    border: 2px solid #707070; 
+    width: 66px; 
+    height: 30px;
+    border-radius: 40px;
+}
+
+
+/* Bundles*/
+#Bundles-section h2{font-size: 50px;}
+#Bundles-section p {color: black; font-size: 24px; line-height: 30px;}
+/* Bundles-01 */
+
+#Bundle-img {grid-column: 1/2; margin-left: 35px; grid-row: 3/8;}
+.line {border-bottom: 2px solid; width: 296px;}
+#Bundle-des {grid-column: 6/12; grid-row: 4/10;}
+#Bundle-price1 {
+    grid-column: 11/12;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;}
+
+#Bundles-section button {
+    background-color: black;
+    width: 141px;
+    height: 56px;
+    font-size: 21px;
+    color: white;
+}
+
+#Bundle-1-buy-button {
+    margin-top: 15px;
+    grid-row: 8/9;
+    grid-column: 6/7;
+}
+
+#Bundle-1-Add-button {
+    margin-top: 15px;
+    grid-row: 8/9;
+    grid-column: 7/8;
+}
+
+/* Bundles-02 */
+
+#Bundles2-img {grid-column: 8/11; grid-row: -10/11;}
+#Bundle2-des{grid-column: 2/6; grid-row: 4/10; margin-top: 10px;}
+#Bundle-price2 {
+    grid-column: 5/6;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;
+}
+
+#Bundle-2-buy-button {
+    grid-row: -5/-4;
+    grid-column: 2/3;
+}
+
+#Bundle-2-Add-button {
+    grid-row: -5/-4;
+    grid-column: 3/4;
+}
+
+/* Bundle-03 */
+
+#Bundle3-img {grid-column: 1/2; margin-left: 35px; grid-row: 3/8;}
+.line {border-bottom: 2px solid; width: 296px;}
+#Bundle-des3 {grid-column: 6/12; grid-row: 4/10;}
+#Bundle-price3 {
+    grid-column: 11/12;
+    grid-row: -10/-9;
+    margin-left: 40px;
+    margin-top: 65px;
+}
+
+#Bundle-3-buy-button {
+    margin-top: 15px;
+    grid-row: 8/9;
+    grid-column: 6/7;
+}
+
+#Bundle-3-Add-button {
+    margin-top: 15px;
+    grid-row: 8/9;
+    grid-column: 7/8;
+}
+
+/* footer */
+
+footer {
+    background-color: #FAFA33;
+    height: 312px;
+    color: black;
+}
+
+#footer-logo {
+    grid-column: 1/2;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+#Contact-us{
+    line-height: 10px;
+    text-align: center;
+    grid-column: 6/8;
+    grid-row: 2/-11;
+}
+
+#Contact-us h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#follow {
+    grid-column: 11/12;
+    font-size: 30px;
+    grid-row: 2/-11;
+    letter-spacing: 1px;
+}
+
+#footer-icons{
+    
+    display: flex;
+    justify-content: space-between;
+    grid-column: 11/12;
+    grid-row: 3/4;
+    margin-top: 40px;
+}
+
+#footer-icons img{
+    max-width: 100%;
+}
