@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/mobile-page2.css">
     <title>Midterm-Mobile-Page2</title>
@@ -24,28 +27,31 @@
                 <button type="button" onclick="">Buy Now</button>
             </div>
         </header>
+
+
         <main>
-            <div id="f-b-button" class="grid">
-                <button id="flavour" type="button">Flavour</button>
-                <button id="bundle" type="button">Bundle</button>
-    
-                  <!-- fliters -->
-                    <div class="sort-container">
-                        <div id="sort">
-                            <label for="sort-select"></label>
-                            <select class="sort-select">
-                            <option value="asc">Sort</option>
-                            </select>
-                        </div>
-                        
-                    <div id="fliter">
+           <div id="f-b-button" class="grid">
+                <button id="flavour-button" type="button">Flavour</button>
+                <button id="bundle-button" type="button">Bundle</button>
+
+              <!-- fliters -->
+                <div id="sort-container" class="grid">
+                    <div id="sort">
+                        <label for="sort-select"></label>
+                        <select class="sort-select">
+                        <option value="asc">Sort</option>
+                        </select>
+                    </div>
+                    
+                    <div id="filter">
                         <label for="sort-select"></label>
                         <select class="sort-select">
                         <option value="asc">Fliter</option>
                         </select>
                     </div>
-                    </div>
                 </div>
+            </div>
+
 
             <!-- Flavours -->
 
@@ -65,7 +71,7 @@
                             <h3>Tangy</h3>
                             <h3>2% alcohol</h3>
                             <p>Our thirst-quenching Lemon Drink, made with the finest hand-picked <br> lemons to deliver a perfectly balanced flavor. It has a smooth and crisp <br> finish, with just the right amount of sweetness to balance out the tartness <br> of the lemon making it perfect for Family Gatherings.<p>
-                        <div id="button">
+                        <div id="button-01">
                             <div id="drink-1-buy-button">
                                 <button type="button">Buy Now</button>
                             </div>
@@ -79,19 +85,40 @@
 
                 <!-- Drink-02 -->
                 <div id="drink2">
+                    <img src="images/img-mobile/Drink-2.png" alt="drink1">
+                <div class="drink-des">
+                    <div id="red-line"></div>
+                        <h2>Zima Watermelon</h2>
+                        <h3>Refreshing</h3>
+                        <h3>2% alcohol</h3>
+                        <p> Our Watermelon Drink, a refreshing and hydrating beverage that captures the essence of summer in every sip. Made with the juiciest and most flavorful watermelons, this drink is bursting with the sweet and refreshing taste of the fruit making it perfect to celebrate love.<p>
+                    <div id="button-02">
+                        <div id="drink-2-buy-button">
+                            <button type="button">Buy Now</button>
+                        </div>
+                        <div id="drink-2-Add-button">
+                            <button type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+                <!-- Drink-03 -->
+                <div id="drink3">
                         <img src="images/img-mobile/Drink-3.png" alt="drink2">
 
                     <div class="drink-des">
                         <div id="blue-line"></div>
-                            <h2>Zima Lemon</h2>
+                            <h2>Zima Blueberry</h2>
                             <h3>Sweet</h3>
                             <h3>2% alcohol</h3>
                             <p>Our Blueberry Alcoholic Drink, a sophisticated and refreshing beverage made with the finest blueberries, is bursting with the sweet and tangy taste of the fruit. A touch of alcohol for a little extra kick makes it perfect for Friends Union.<p>
-                        <div id="button">
-                            <div id="drink-2-buy-button">
+                        <div id="button-03">
+                            <div id="drink-3-buy-button">
                                 <button type="button">Buy Now</button>
                             </div>
-                            <div id="drink-2-Add-button">
+                            <div id="drink-3-Add-button">
                                 <button type="button">Add to Cart</button>
                             </div>
                         </div>
@@ -99,21 +126,21 @@
                     </div>  
                 </div>
 
-                <!-- Drink-03 -->
-            <div id="drink3">
+                <!-- Drink-04 -->
+            <div id="drink4">
                     <img src="images/img-mobile/Drink-4.png" alt="drink3">
 
                 <div class="drink-des">
                     <div id="black-line"></div>
-                        <h2>Zima Lemon</h2>
+                        <h2>Zima Nil</h2>
                         <h3>Tangy</h3>
-                        <h3>2% alcohol</h3>
-                        <p>Our thirst-quenching Lemon Drink, made with the finest hand-picked <br> lemons to deliver a perfectly balanced flavor. It has a smooth and crisp <br> finish, with just the right amount of sweetness to balance out the tartness <br> of the lemon making it perfect for Family Gatherings.<p>
-                    <div id="button">
-                        <div id="drink-3-buy-button">
+                        <h3>0% alcohol</h3>
+                        <p>Our Zero Alcoholic Drink, a sophisticated and refreshing beverage made to experience the fresh flavor without any alcoholic drink making it perfect for kids and underage people.<p>
+                    <div id="button-04">
+                        <div id="drink-4-buy-button">
                             <button type="button">Buy Now</button>
                         </div>
-                        <div id="drink-3-Add-button">
+                        <div id="drink-4-Add-button">
                             <button type="button">Add to Cart</button>
                         </div>
                     </div>
@@ -121,8 +148,8 @@
                 </div>  
             </div>
 
-             <!-- Drink-04 -->
-             <div id="drink4">
+             <!-- Drink-05 -->
+             <div id="drink5">
                 <img src="images/img-mobile/Drink-6.png" alt="drink4">
 
             <div class="drink-des">
@@ -131,20 +158,20 @@
                     <h3>Coconut</h3>
                     <h3>2% alcohol</h3>
                     <p>Our Coconut Alcoholic Drink, a sophisticated and refreshing beverage made with the finest coconut, is bursting with the refreshing taste . A touch of alcohol for a little extra kick makes it perfect for casual drinking.<p>
-                <div id="button">
-                    <div id="drink-4-buy-button">
+                <div id="button-05">
+                    <div id="drink-5-buy-button">
                         <button type="button">Buy Now</button>
                     </div>
-                    <div id="drink-4-Add-button">
+                    <div id="drink-5-Add-button">
                         <button type="button">Add to Cart</button>
                     </div>
                 </div>
                 
             </div>  
+            </div>
         </div>
-        </div>
-    </div>
-    
+
+        <!-- Intro-->
         <div id="intro" class="grid">
             <p>Introducing 
                 Brand 
@@ -153,14 +180,13 @@
 
         <button type="button" onclick="">View Bundles</button>
         </div>
-
         <!--Bundles-->
-        <div id="Bundles-section">
+       <div id="Bundles-section">
             <div id="Bundle-tittle">
                 <h2>Bundles</h2>
             </div>
-                
-           <div id="energy1">
+            
+        <div id="energy1">
                 <img src="images/img-mobile/Energy-Drink-1.png" alt="Energy-Drink-1">
                 <div class="energy-des">
                     <div class="line"></div>
@@ -178,7 +204,9 @@
                 </div>
             </div>
 
+
             <!-- 2 -->
+
 
             <div id="energy2">
                 <img src="images/img-mobile/energy-drink-2.png" alt="Energy-Drink-2">
@@ -198,8 +226,9 @@
                 </div>
             </div>
 
+
             <!--03-->
-            <div id="energy2">
+            <div id="energy3">
                 <img src="images/img-mobile/energy-drink-3.png" alt="Energy-Drink-3">
                 <div class="energy-des">
                     <div class="line"></div>
@@ -214,36 +243,39 @@
                             <button type="button">Add to Cart</button>
                         </div>
                     </div>
-                </div>
+                    </div>
+                    </div>
             </div>
+        </main>
+        <footer id="main-footer" class="grid">
+            <div id="footer-logo">
+                <a href="#"><img src="images/Footer-logo.png" alt="footer-logo" width="43"></a>
+            </div>
+            <div id="footer-des">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
+            </div>
+           
+     
+     
+        <div id="Contact-us">
+            <h3>Contact Us</h3>
+            <p>zima@email.com</p>
+            <p>123 Richmond Street</p>
+            <p>London, Ontario</p>
+            <p>519-467-7485</p>
         </div>
-    </main>
+     
+     
+        <p id="follow">Follow Us</p>
+     
+     
+        <div id="footer-icons">
+            <a href="#"><img src="images/icons/twitter-circled.png" alt="twitter" width="47"></a>
+            <a href="#"><img src="images/icons/linkedin-circled.png" alt="linkedin" width="47"></a>
+            <a href="#"><img src="images/icons/instagram.png" alt="instagram" width="47"></a>
+        </div>
+     </footer>
 
-    <footer id="main-footer" class="grid">
-        <div id="footer-logo">
-            <a href="#"><img src="images/Footer-logo.png" alt="footer-logo" width="43"></a>
-        </div>
-        <div id="footer-des">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-        </div>
-        
-
-    <div id="Contact-us">
-        <h3>Contact Us</h3>
-        <p>zima@email.com</p>
-        <p>123 Richmond Street</p>
-        <p>London, Ontario</p>
-        <p>519-467-7485</p>
     </div>
-
-    <p id="follow">Follow Us</p>
-
-    <div id="footer-icons">
-        <a href="#"><img src="images/icons/twitter-circled.png" alt="twitter" width="47"></a>
-        <a href="#"><img src="images/icons/linkedin-circled.png" alt="linkedin" width="47"></a>
-        <a href="#"><img src="images/icons/instagram.png" alt="instagram" width="47"></a>
-    </div>
-</footer>
-
 </body>
 </html>

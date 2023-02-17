@@ -1,5 +1,13 @@
+/* Table of Content */
+/* General css */
+/* Header */
+/* Main */
+
+
+/* General css */
+
 #container{
-   margin: 0, auto;
+   margin: 0 auto;
    width: 1920px;
 }
 
@@ -7,21 +15,24 @@ a {
    text-decoration: none;
 }
 
+body {
+   font-family: 'Poppins', sans-serif; 
+}
+
 .grid {
-   padding-left: 32px;
-   padding-right: 32px;
    display: grid;
-   grid-template-columns: repeat(12, 140px);
-   grid-template-rows: repeat(12,70px);
+   padding-left: 16px;
+   padding-right: 24px; 
+   grid-template-columns: repeat(12, 142px);
+   /* grid-template-rows: repeat(4, 200px);  */
    grid-gap: 16px;
 }
-
+/* 
 .full-grid{
    display: grid;
-   grid-column: 1920px;
-}
+} */
 
-/* style header */
+/* header  */
 
 header{
    background-color: #FAFA33;
@@ -29,24 +40,38 @@ header{
    height: 1080px;
 }
 
-#header-logo {
+.header-logo {
    grid-column: 1/2;
-   margin-left: 40px;
+   margin-left: 60px;
    margin-top: 30px;
 }
+/* 
+.main-header nav {
+   display: contents;
+} */
 
-/* header icons */
+.header-icons {
+   grid-column: 11/-1; 
+   margin-top: 50px;
+   margin-left: 120px;
+}
 
-#main-header nav {display: contents;}
-#header-icons {grid-column: 12/-1; margin-top: 50px;}
+.hero-title {
+   grid-column: 2/6;
+   margin-top: 150px;
+}
 
-#main-header h2 {font-size: 70px; grid-column: 2/6; grid-row: 5/6;}
+.hero-title h2 {
+   font-size: 68px; 
+   margin-bottom: 0;
+}
 
-#main-header p {font-size: 20px; grid-column: 2/6; grid-row: 7/8; margin-top: 80px;}
+.hero-title p {
+   font-size: 20px; 
+   margin-top: 40px;
+}
 
-/* header- button */
-
-#Drink-Now-button button {
+.drink-now-button button {
    width: 140px;
    height: 60px;
    font-size: 20px;
@@ -55,89 +80,157 @@ header{
    color: white;
 }
 
-#Drink-Now-button {grid-column: 2/3; grid-row: 10/11;}
+.drink-now-button {
+   grid-column: 2/3;
+   margin-top: 180px;
+}
 
-#header-bottle {grid-column: 9/10;}
+.header-bottle {
+   grid-column: 10/12;
+}
 
 /*main*/
 
-/* Zima slider */
-#Zima-slider h2{font-size: 63px; text-align: center;}
-#Zima-slider p{font-size: 38px;text-align: center; }
-#Zima-slider {margin-bottom: 70px;}
-
-/*Intro */
-#Intro p {color: #FFF1C5; font-size: 32px;}
-#Intro h2 {color: black; font-size: 141px; }
-#View-Bundles button{
-   width: 296px;
-   height: 60px;
-   color: white;
-   background-color: black;
+#product {
+   margin-bottom: 70px;
 }
 
+#prod-title {
+   grid-column: 5/9;
+}
 
+#prod-title h2{
+   font-size: 62px; 
+   text-align: center;
+   padding-top: 100px;
+}
+
+#prod-title p{
+   font-size: 38px;
+   text-align: center; 
+   line-height: 0;
+}
+
+#prod-carousel {
+   margin-top: 80px;
+   grid-column: 1/13;
+}
+
+.carousel-1 {
+   width: 616px;
+   height: 676px;
+   grid-column: 1/5;
+   margin-bottom: 40px;
+}
+.carousel-2 {
+   width: 616px;
+   height: 764px;
+   grid-column:  5/-5;
+   padding-left: 11px;
+}
+.carousel-3 {
+   width: 616px;
+   height: 676px;
+   grid-column: 9/-1;
+   margin-bottom: 40px; 
+   padding-left: 12px;
+}
+ 
+ 
 /* 3 Bundles */
+
+#bundle-title {
+   grid-column: 4/9;
+}
+
+#bundle-title h2{
+   font-size: 62px; 
+   text-align: center;
+   padding-top: 100px;
+}
+
+#bundle-title p{
+   font-size: 38px;
+   text-align: center; 
+   line-height: 0;
+}
+
 #Bundles-box div{
    width: 608px;
    height: 700px;
+   margin-top: 150px;
    grid-column: span 4;
    text-align:center;
    color: white;
 }
-.box-color {background-color: #333355;}
 
-#Bundles-box h3 {font-size: 42px;}
-#Bundles-box p {font-size: 18px;}
+.box-color {
+   background-color: #333355;
+}
+
+#Bundles-box h3 {
+   font-size: 42px;
+}
+
+#Bundles-box p {
+   font-size: 18px;
+}
+
 
 /* video */
-#video img {grid-column: 2/13;}
 
-/* play btn */
-
-#play-btn {grid-row: 4/7; grid-column: 6/8; margin-top: 30px; margin-left: 40px;}
-
-#contact {
-   background-image: url(../images/contact-bg.png);
-   background-size: cover;
+.play-btn {
+   margin-top: 200px;
+   grid-column: 2/12;
 }
+
 
 /* Contact */
 
-#contact h2 {font-size: 99px; grid-column: 2/6; grid-row: 2/3; margin-top: 130px; color: white;}
+#contact {
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('../images/con-bg-wb-hm.jpg');
+   background-size: cover;
+   margin-top: 200px;
+   height: 876px;
+}
 
-#contact P {font-size: 24px; grid-column: 2/5; grid-row: 5/6; color: white;} 
+#contact h2 {
+   font-size: 99px; 
+   grid-column: 2/6; 
+   margin-top: 130px; 
+   color: white;}
+
+#contact P {
+   font-size: 24px; 
+   grid-column: 2/5; 
+   color: white;} 
 
 #contact-box {
    width: 764px;
    height: 771px;
-   background-color: black;
+   margin-top: 50px;
+   background-color: #333355;
    border-radius: 20px;
    color: white;
    font-size: 26px;
-   grid-column: 7/11;
-   grid-row: 2/11;
+   grid-column: 7/12;
+   grid-row: 1/3;
 }
 
-form {margin-left: 40px; margin-left: 50px; margin-top: 30px;}
+form {
+   margin-left: 40px; 
+   margin-left: 50px; 
+   margin-top: 70px;
+}
 
 .input-area {
    width: 442px;
    border-bottom: 1px solid ;
-   
-}
-
-input {
-   border-top-style: hidden;
-   border-right-style: hidden;
-   border-left-style: hidden;
-   border-bottom-style: groove;
-   
-}
-
-textarea :focus{
-   outline: none;
-   
+   background-color: #333355;
+   border: none;
+   border-bottom:solid 1px black;
+   color: white;
+   padding: 10px;
 }
 
 .btn {
@@ -146,10 +239,11 @@ textarea :focus{
    background-color: black;
    color: white;
    border-radius: 30px;
+   border: solid black 1px;
    grid-row: 9/10;
 }
 
-#send-button {margin-top: 100px;}
+#send-button {margin-top: 50px;}
 
 /* footer */
 
@@ -162,35 +256,41 @@ footer {
 #footer-logo {
    grid-column: 1/2;
    margin-left: 40px;
-   margin-top: 90px;
+   margin-top: 50px;
 }
 
 #Contact-us{
    line-height: 10px;
    text-align: center;
    grid-column: 6/8;
-   grid-row: 2/-11;
+   margin-top: 40px;
 }
 
 #Contact-us h3 {
-   font-size: 30px;
+   font-size: 35px;
+   letter-spacing: 1px;
+}
+
+#Contact-us p {
+   font-size: 17px;
    letter-spacing: 1px;
 }
 
 #follow {
-   grid-column: 11/12;
-   font-size: 30px;
-   grid-row: 2/-11;
+   grid-column: 10/12;
+   grid-row: 1/2;
+   font-size: 35px;
    letter-spacing: 1px;
+   text-align: center;
+   margin-top: 40px;
 }
 
 #footer-icons{
-   
    display: flex;
    justify-content: space-between;
-   grid-column: 11/12;
-   grid-row: 3/4;
-   margin-top: 40px;
+   grid-column: 10/12;
+   grid-row: 1/2;
+   margin-top: 120px;
 }
 
 #footer-icons img{

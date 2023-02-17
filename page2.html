@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/page2.css">
     <title>Zima</title>
@@ -13,7 +16,7 @@
         <header id="main-header" class="grid">
             <h2>Sale</h2>
             <p>It is a long established fact that a reader will be distracted 
-                by the readable content of a page when looking at its layout.</p>
+                by the readable content of a page when looking at its layout. </p>
             <div id="header-logo">
                 <img src="images/Logo-header.svg" alt="Logo-header">
             </div>
@@ -28,11 +31,11 @@
 
         <main>
             <div id="f-b-button" class="grid">
-            <button id="flavour" type="button">Flavour</button>
-            <button id="bundle" type="button">Bundle</button>
+                <button id="flavour" type="button">Flavour</button>
+                <button id="bundle" type="button">Bundle</button>
 
               <!-- fliters -->
-                <div class="sort-container">
+                <div id="sort-container" class="grid">
                     <div id="sort">
                         <label for="sort-select"></label>
                         <select class="sort-select">
@@ -40,19 +43,22 @@
                         </select>
                     </div>
                     
-                <div id="fliter">
-                    <label for="sort-select"></label>
-                    <select class="sort-select">
-                    <option value="asc">Fliter</option>
-                    </select>
-                </div>
+                    <div id="filter">
+                        <label for="sort-select"></label>
+                        <select class="sort-select">
+                        <option value="asc">Fliter</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
 
+          
+
             <div id="flavours-area">
 
                 <div id="flavours">
+
                 <!-- flavours des -->
                     <div id="Flavour-des">
                             <h2>Flavours</h2>
