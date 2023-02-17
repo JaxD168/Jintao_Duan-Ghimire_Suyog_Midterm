@@ -1,0 +1,281 @@
+#container{
+    margin: 0, auto;
+    width: 375px;
+ }
+ 
+ a {
+    text-decoration: none;
+ }
+ 
+ .grid {
+    padding-left: 17px;
+    padding-right: 17px;
+    display: grid;
+    grid-template-columns: repeat(4, 73px);
+    grid-template-rows: repeat(12, 70px);
+    grid-gap: 16px;
+ }
+ 
+ /* style header */
+
+ #main-header {background-color: #FAFA33;height: 732px;}
+
+ #header-logo {margin-top: 20px; margin-left: 20px;}
+
+ #header-ham {margin-top: 30px; margin-left: 20px; grid-column: 4/-1;} 
+
+ header h1 {
+    text-align: center;
+    font-size: 67px; 
+    grid-column: 1/-1; 
+    grid-row: 3/5; 
+}
+
+ header p {
+    text-align: center;
+    font-size: 15px; 
+    grid-row: 4/6; 
+    grid-column: 1/-1; 
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+#Buy-Now button{
+    color: white; 
+    background-color: black;
+    border: 1px solid black;
+    width: 91px;
+    height: 39px;
+    
+}
+
+#Buy-Now{
+    grid-row: 6/8; 
+    grid-column: 2/3; 
+    margin-left: 32px;
+}
+
+#f-b-button{
+    height: 200px;
+}
+
+#f-b-button button {
+    background-color: black;
+    color: white;
+    height: 18px;
+    width: 59px;
+    font-size: 10px;
+}
+
+/* style fliter */
+.sort-select {
+    width: 38px;
+    height: 19px;
+    font-size: 9px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid black;
+    background: transparent;
+    grid-column: 1/2;
+    margin-bottom: 60px;
+}
+
+#sort {
+    grid-row: 2/4;
+}
+
+#fliter {
+    grid-column: 12/13;
+}
+
+/* flavours */
+#flavours {background-color: #333355;}
+#Flavour-des h2{color: white;padding-top: 40px;text-align: center;
+}
+#Flavour-des p {font-size: 10px; color: white;text-align: center;}
+
+#flavours button {
+    color: white; 
+    width: 53px;
+    height: 21px;
+    font-size: 8px;
+}
+
+.drink-des{padding-left: 17px;}
+
+/* drink-01 */
+
+#green-line{width: 111px; border-bottom: 2px solid #40F500;}
+.drink-des p {color: white; font-size: 7px;}
+.drink-des h2{color: white; font-size: 18px;}
+.drink-des h3 { color: white; font-size: 8px;}
+
+#drink-1-buy-button button{
+    background-color: #BBFB66;
+    border: none;
+    color: black;
+}
+
+#drink-1-Add-button button{
+    background-color: #BBFB66;
+    border: none;
+    color: black;
+    margin-left: 15px;
+}
+
+#button{
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Drink-02*/
+#blue-line{width: 111px; border-bottom: 2px solid #4F86F7;}
+.drink-des p {color: white; font-size: 7px;}
+.drink-des h2{color: white; font-size: 18px;}
+.drink-des h3 { color: white; font-size: 8px;}
+
+#drink-2-buy-button button{
+    background-color: #4F86F7;
+    border: none;
+    color: black;
+}
+
+#drink-2-Add-button button{
+    background-color: #4F86F7;
+    border: none;
+    color: black;
+    margin-left: 15px;
+}
+
+#button{
+    display: flex;
+}
+
+/* Drink-03 */
+
+#black-line{width: 111px; border-bottom: 2px solid black;}
+.drink-des p {color: white; font-size: 7px;}
+.drink-des h2{color: white; font-size: 18px;}
+.drink-des h3 { color: white; font-size: 8px;}
+
+#drink-3-buy-button button{
+    background-color: black;
+    border: none;
+}
+
+#drink-3-Add-button button{
+    background-color: black;
+    border: none;
+    margin-left: 15px;
+}
+
+#button{
+    display: flex;
+}
+
+/* Drink-04 */
+
+#white-line{width: 111px; border-bottom: 2px solid white;}
+.drink-des p {color: white; font-size: 7px;}
+.drink-des h2{color: white; font-size: 18px;}
+.drink-des h3 { color: white; font-size: 8px;}
+
+#drink-4-buy-button button{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+#drink-4-Add-button button{
+    background-color: white;
+    border: none;
+    margin-left: 15px;
+    color: black;
+}
+
+#button{
+    display: flex;
+}
+
+
+/* intro */
+
+#intro {height: 649px;background-color: aquamarine;}
+
+#intro p {font-size: 57px; color: white; grid-row: 2/6;} 
+
+#intro button {
+    width: 163px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    grid-row: 6/8;
+}
+
+
+#Bundles-section{height: 2347px; background-color: #A9A9A9;}
+
+#Bundle-tittle{ 
+    font-size: 30px; 
+    color: white; 
+    padding-top: 40px; 
+    padding-left: 120px;
+}
+
+/* energy-01 */
+.line{ width: 111px; border-bottom: 2px solid black;}
+.energy-des p { font-size: 7px;}
+.energy-des h2{ font-size: 18px;}
+.energy-des h3 { font-size: 8px;}
+.energy-des{padding-left: 17px;}
+
+.energy-buy-button button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+
+.energy-Add-button button{
+    background-color: black;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.button{
+    display: flex;
+}
+
+
+footer {
+    background-color: #FAFA33;
+    height: 471px;
+}
+
+#footer-logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#footer-des{
+    grid-column: 2/-1;
+    margin-top: 20px;
+}
+
+#Contact-us {
+    grid-row: 2/4;
+    grid-column: 2/4;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#footer-icons {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    margin-top: 35px;
+}
+
+#follow { font-size: 20px; grid-column: 2/4; margin-top: 80px; text-align: center;}

@@ -48,16 +48,6 @@ header p {
 #main-header nav {display: contents;}
 #header-icons {grid-column: 12/-1; margin-top: 40px;}
 
-
-
-/* flavour and Bundle */
-#flavours{
-    background-color: #00002B;
-}
-
-#flavours h2{font-size: 50px; color: white;}
-#flavours p {color: white; font-size: 24px;}
-
 #f-b-button{
     height: 200px;
 }
@@ -69,6 +59,17 @@ header p {
     width: 232px;
     font-size: 43px;
 }
+
+
+/* flavour and Bundle */
+#flavours{
+    background-color: #00002B;
+}
+
+#flavours h2{font-size: 50px; color: white;}
+#flavours p {color: white; font-size: 24px;}
+
+
 
 #flavour{
     grid-column: 5/6;
@@ -108,9 +109,6 @@ header p {
 #fliter {
     grid-column: 12/13;
 }
-
-
-
 
 
 #flavours h2{font-size: 50px;}
